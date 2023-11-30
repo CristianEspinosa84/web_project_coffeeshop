@@ -76,13 +76,17 @@
       <main class="content">
         <section class="recipes">
           <div class="recipes__title">
-            <h2 class="recipes__title recipes__title_heading">Recetas</h2>
-            <p class="recipes__title recipes__title_subtitle">
+            <h2>Recetas</h2>
+          </div>
+          <div class="recipes__subtitle">
+            <p>
               Echa un vistazo a algunas de las recetas que hemos reunido para
               que elabores tu propio cafe.
             </p>
-
+          </div>
+          <div class="recipes__videos">
             <iframe
+              class="recipes__iframe"
               width="480"
               height="373"
               src="https://www.youtube.com/embed/j6VlT_jUVPc?si=H5lFt9Yfgy6yPzKb"
@@ -91,8 +95,12 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
+            <div class="recipes__video-caption">
+              <h2 class="recipes__video-caption-title">en Aeropress ~5 min</h2>
+            </div>
 
             <iframe
+              class="recipes__iframe"
               width="480"
               height="273"
               src="https://www.youtube.com/embed/st571DYYTR8?si=QnaLWZIR0aQ34fYJ"
@@ -101,8 +109,14 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
+            <div class="recipes__video-caption">
+              <h2 class="recipes__video-caption-title">
+                Receta en cafetera francesa ~15 min
+              </h2>
+            </div>
           </div>
         </section>
+
         <section class="reservation"></section>
         <section class="menu"></section>
         <section class="about"></section>
