@@ -27,7 +27,7 @@
           />
           <ul class="nav__links">
             <li>
-              <a href="#" class="nav__link">Recetas</a>
+              <a href="#recetas" class="nav__link">Recetas</a>
             </li>
             <li>
               <a href="#" class="nav__link">Reserva una mesa</a>
@@ -74,9 +74,9 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes">
+        <section id="recetas" class="recipes">
           <div class="recipes__title">
-            <h2>Recetas</h2>
+            <h2 class="recipes__title-recetas">Recetas</h2>
           </div>
           <div class="recipes__subtitle">
             <p>
@@ -85,34 +85,36 @@
             </p>
           </div>
           <div class="recipes__videos">
-            <iframe
-              class="recipes__iframe"
-              width="480"
-              height="373"
-              src="https://www.youtube.com/embed/j6VlT_jUVPc?si=H5lFt9Yfgy6yPzKb"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-            <div class="recipes__video-caption">
-              <h2 class="recipes__video-caption-title">en Aeropress ~5 min</h2>
-            </div>
+            <div class="recipes__video-container">
+              <iframe
+                class="recipes__iframe"
+                width="480"
+                height="373"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=H5lFt9Yfgy6yPzKb"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
 
-            <iframe
-              class="recipes__iframe"
-              width="480"
-              height="273"
-              src="https://www.youtube.com/embed/st571DYYTR8?si=QnaLWZIR0aQ34fYJ"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-            <div class="recipes__video-caption">
-              <h2 class="recipes__video-caption-title">
-                Receta en cafetera francesa ~15 min
-              </h2>
+              <h3 class="recipes__video-caption-title">
+                Receta en Aeropress <span>~5 min</span>
+              </h3>
+            </div>
+            <div class="recipes__video-container">
+              <iframe
+                class="recipes__iframe"
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=QnaLWZIR0aQ34fYJ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <h3 class="recipes__video-caption-title">
+                Receta en cafetera francesa <span>~15 min</span>
+              </h3>
             </div>
           </div>
         </section>
