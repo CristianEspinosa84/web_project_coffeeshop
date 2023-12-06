@@ -221,7 +221,7 @@
   margin: auto;
 }
 
-.form__container {
+.form {
   display: flex;
   flex-direction: column;
   border: none;
@@ -261,7 +261,7 @@
   opacity: 0.7;
 }
 
-.form__list--box {
+.form__list-box {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
