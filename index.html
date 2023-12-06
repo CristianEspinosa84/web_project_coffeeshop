@@ -40,6 +40,7 @@
             </li>
           </ul>
         </nav>
+
         <h1 class="header__title">
           Cafe de especialidad
           <span class="header__title-special"
@@ -68,9 +69,11 @@
               Sábado y Domingo (de 11:00 a 18:00)
             </li>
           </ul>
-          <p class="header__address">
-            Avenida del Éxito 200, Ciudad Triple Peaks
-          </p>
+          <div class="header__footer-container_address">
+            <p class="header__footer-address">
+              Avenida del Éxito 200, Ciudad Triple Peaks
+            </p>
+          </div>
         </div>
       </header>
       <main class="content">
@@ -79,7 +82,7 @@
             <h2 class="recipes__title-recetas">Recetas</h2>
           </div>
           <div class="recipes__subtitle">
-            <p>
+            <p class="recipes__subtitle-recetas">
               Echa un vistazo a algunas de las recetas que hemos reunido para
               que elabores tu propio cafe.
             </p>
@@ -116,8 +119,62 @@
             </div>
           </div>
         </section>
+        <section id="reserva-una-mesa" class="reservation">
+          <h1 class="reservation__title">Reservar una mesa</h1>
+          <form class="reservation__form">
+            <fieldset class="form__fielset">
+              <label class="form__lebel" for="name">Nombre*</label>
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                placeholder="Nombre Apellido"
+                required
+              />
 
-        <section id="reserva-una-mesa" class="reservation"></section>
+              <label class="form__lebel" for="number"
+                >Numero de comensales*</label
+              >
+              <input
+                type="number"
+                class="form__input"
+                id="number"
+                placeholder="1-8"
+                min="1"
+                max="8"
+                required
+              />
+
+              <label class="form__lebel" id="datetime">Fecha y hora*</label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="datatime"
+                required
+              />
+
+              <label class="form__lebel" for="email"
+                >Tu correo electronico*</label
+              >
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                placeholder="email@email.com"
+                required
+              />
+
+              <button type="submit" class="form__button">
+                Reserva una mesa
+              </button>
+
+              <label class="form__lebel form__lebel--checkbox">
+                <input type="checkbox" class="form__checkbox" required />
+                Acepto los terminos de uso
+              </label>
+            </fieldset>
+          </form>
+        </section>
         <section id="menu" class="menu"></section>
         <section class="about"></section>
       </main>
