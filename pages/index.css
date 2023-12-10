@@ -1,4 +1,12 @@
-.page {
+@import url(/blocks/page.css);
+@import url(/blocks/header.css);
+@import url(/blocks/recipes.css);
+@import url(/blocks/reservation.css);
+@import url(/blocks/menu.css);
+@import url(/blocks/about.css);
+@import url(/blocks/footer.css);
+
+/*.page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
@@ -39,6 +47,10 @@
   font-weight: 500;
   font-family: "Inter";
   font-style: normal;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
 }
 
 .nav__logo {
@@ -255,6 +267,8 @@
   border-radius: 4px;
   background-color: #2f80ed;
   color: #ffffff;
+  opacity: 1;
+  transition: 0.3s ease;
 }
 
 .form__button:hover {
@@ -280,3 +294,223 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.menu {
+  background-image: url(/images/background_menu.svg);
+  background-color: #fff;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0 100px 0;
+}
+
+.menu__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu__title-header {
+  max-width: 700px;
+  margin: 0;
+  padding-bottom: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.menu__subtitle {
+  max-width: 700px;
+  margin: 0;
+  padding-bottom: 100px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+
+.card {
+  width: 540px;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.card__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  padding-bottom: 32px;
+}
+
+.card__list-item {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+
+.card__list-divider {
+}
+
+.card__list-item-line {
+  height: 1px;
+  background-color: #000;
+  border: none;
+}
+
+.about {
+  background-color: #0a2850;
+  padding: 119px 80px 173px 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__title {
+  max-width: 251px;
+  position: relative;
+  z-index: 2;
+}
+
+.about__title-header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #fff;
+  margin: 0;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.about__paragraph {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  max-width: 660px;
+  margin: 0;
+}
+
+.about__circle {
+  border-radius: 50%;
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: 1;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1.3;
+    transform: scale(1.3);
+  }
+}
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite;
+}
+
+.footer {
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  padding: 60px 100px 60px 80px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+}
+
+.footer__logo-caffe {
+  width: 105px;
+  height: 39px;
+  padding-bottom: 108px;
+}
+
+.footer__social-heading {
+}
+
+.footer__social-heading-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.footer__list {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__list-item {
+  padding-bottom: 16px;
+}
+
+.footer__social-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+}
+
+.footer__copyright {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0;
+}*/

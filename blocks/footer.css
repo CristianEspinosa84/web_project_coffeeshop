@@ -1,0 +1,71 @@
+.footer {
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  padding: 60px 100px 60px 80px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+}
+
+.footer__logo-caffe {
+  width: 105px;
+  height: 39px;
+  padding-bottom: 108px;
+}
+
+.footer__social-heading {
+}
+
+.footer__social-heading-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.footer__list {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__list-item {
+  padding-bottom: 16px;
+}
+
+.footer__social-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+}
+
+.footer__copyright {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0;
+}
