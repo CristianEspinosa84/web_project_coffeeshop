@@ -5,6 +5,7 @@
 @import url(/blocks/menu.css);
 @import url(/blocks/about.css);
 @import url(/blocks/footer.css);
+@import url(/vendor/normalize.css);
 
 /*.page {
   min-width: 1100px;
