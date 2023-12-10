@@ -11,36 +11,6 @@
   background-repeat: no-repeat;
 }
 
-.nav {
-  display: flex;
-
-  justify-content: space-between;
-  margin: 30px 80px 183px 30px;
-}
-.nav__links {
-  display: flex;
-  text-decoration: none;
-  list-style: none;
-  column-gap: 20px;
-}
-
-.nav__link {
-  text-decoration: none;
-  color: #000;
-  font-weight: 500;
-  font-family: "Inter";
-  font-style: normal;
-}
-
-.nav__link:hover {
-  color: #2f80ed;
-}
-
-.nav__logo {
-  width: 105px;
-  height: 39px;
-}
-
 .header__image {
   width: 646px;
   height: 568px;
