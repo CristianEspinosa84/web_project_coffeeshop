@@ -26,7 +26,7 @@
   max-width: 729px;
 }
 
-.header__content-special {
+.header__title-special {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -39,7 +39,7 @@
   z-index: 1;
 }
 
-.header__content-description {
+.header__title-description {
   max-width: 638px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
