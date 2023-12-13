@@ -1,6 +1,4 @@
 .header {
-  display: flex;
-  flex-direction: column;
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
@@ -9,60 +7,60 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 30px 5px 40px 30px;
 }
 
-.header__image {
-  width: 646px;
-  height: 568px;
+.header__content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
 }
 
-.header__title {
-  max-width: 729px;
-  margin: 0 0 65px 80px;
+.header__content-title {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 50px;
   line-height: 72px;
   color: #2f80ed;
+  margin: 0;
+  max-width: 729px;
 }
 
-.header__title-special {
+.header__content-special {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
-  display: flex;
   color: #000;
-  z-index: 2;
+  display: flex;
   position: absolute;
+  z-index: 1;
 }
 
-.header__description {
+.header__content-description {
   max-width: 638px;
-  margin: 28px 0 0 80px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 70px;
+  padding-top: 24px;
 }
 
 .header__image {
   width: 646px;
   height: 568px;
   position: absolute;
-  right: 5px;
-  top: 124px;
-  margin-right: -30px;
+  right: -28px;
+  bottom: 124px;
 }
 
 .header__footer {
-  display: flex;
-  margin-top: 160px;
-  margin-left: 80px;
-  margin-bottom: 40px;
+  padding-left: 50px;
+  margin-top: 165px;
 }
 
 .header__list {
@@ -72,7 +70,7 @@
   font-weight: 500;
   color: #838383;
   padding: 0;
-  margin-left: -60px;
+  margin: 0;
 }
 
 .header__footer-heading {
@@ -84,13 +82,19 @@
   line-height: 20px;
   color: #838383;
 }
+
 .header__footer_container-address {
+  padding: 0;
   margin: 0;
-  padding-left: 650px;
+  position: absolute;
+  right: 75px;
+  bottom: 40px;
 }
+
 .header__footer-address {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   color: #838383;
+  margin: 0;
 }
