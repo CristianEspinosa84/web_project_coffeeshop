@@ -10,13 +10,13 @@
   padding: 30px 5px 40px 30px;
 }
 
-.header__content {
+.header__title {
   display: flex;
   flex-direction: column;
   padding-left: 50px;
 }
 
-.header__content-title {
+.header__title-content {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 50px;
